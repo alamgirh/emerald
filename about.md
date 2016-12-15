@@ -1,4 +1,4 @@
 ---
 layout: page
-title: <a href="http://sfu.ca/~mahossai/"> About Me </a>
+title: [About Me](http://sfu.ca/~mahossai/)
 ---
