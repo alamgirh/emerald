@@ -5,7 +5,7 @@ date: 2016-11-10
 categories: update
 ---
 
-<img src="/images/fulls/02.png" class="fit image"> 
+<img src="http://i.stack.imgur.com/zHFFO.png" class="fit image"> 
 
 <p> প্রথমে একটি গল্প দিয়ে শুরু করি। এটি আমার গল্প। 2007 সালে আমি মাস্টার্সে পড়ি। তখন ঢাকা বিশ্ববিদ্যালয়ে বাংলাদেশ গণিত সমিতির কনফারেন্স অনুষ্ঠিত হয়। একটা কনফারেন্স কক্ষে আমি প্রেসেন্টারদের সাহায্য করছিলাম। কম্পিউটারে লেফট রাইট কী চেপে তাদের স্লাইড সরানোর কাজ। তার মধ্যে একটা প্রেজেন্টেশনের স্লাইড গুলো দেখে আমার খুব ভালো লাগে। এটি ছিল সিঙ্গাপুরের একজন বাংলাদেশী প্রফেসরের স্লাইডস। আমি ভাবতে থাকি কিভাবে এই ধরণের প্রেজেন্টেশন করা যায়। তখন আমি পাওয়ার পয়েন্ট ব্যবহার করে প্রেসেন্টেশন করতাম। পাওয়ার পয়েন্টের স্লাইড গুলোকে পিডিফ করে দেখলাম, মাইক্রোসফট ওয়ার্ডের ফাইলকে ল্যান্ডস্কেপ সেটিংস দিয়ে চেষ্টা করলাম তাতে ও ঐ রকম স্লাইডস বানাতে পারলাম না। তারপর বুঝতে পারলাম এটা অন্য কোনো সফ্টওয়ার বা পদ্ধতি যেটা আমাকে শিখতে হবে। 2013 সালে কানাডাতে এসে আমি সেই ফরম্যাটের প্রেজেন্টেশন ফাইল তৈরি করলাম। </p>
 
@@ -116,7 +116,7 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 
 এখন আপনার আগ্রহ তৈরি হতে পারে আপনার প্রেসেন্টেশন ফাইলে একটি ছবি সংযুক্ত করবেন। যেমন quadraticplots.png ফাইল আপনি সংযুক্ত করতে চান। 
 
-[Quadretic Plots](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png)
+<img src="https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png" class="fit image"> 
 
 তাহলে আপনার .tex ফাইলে নিচের মত করে লিখতে পারেন।
 
@@ -133,12 +133,10 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 <h3> ডাউনলোড লিংক</h3>
 এই টিউটোরিয়ালে ব্যবহৃত .tex, .bib ফাইল ও LaTeX ব্যবহার করে প্রাপ্ত .pdf ফাইলের ডাউনলোড লিংক:
 <ul>
-<li> [QuadraticEquations.tex](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.tex)</li>
-<li> [QuadraticEquations.pdf](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.pdf)</li>
-<li> [ref.bib](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/ref.bib)</li>
-<li> [QuadraticEquations.bbl](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.bbl)</li>
-<li> [quadraticplots.png](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png)</li>
+<li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.tex'>QuadraticEquations.tex</a></li>
+<li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.pdf'>QuadraticEquations.pdf</a></li>
+<li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/ref.bib'>ref.bib</a></li>
+<li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.bbl'>QuadraticEquations.bbl</a></li>
+<li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png'>quadraticplots.png</a></li>
 </ul>
 <p> ইতিমধ্যে আপনি গাণিতিক সমীকরণ, টেবিল তৈরি ও ছবি সংযুক্ত করা শিখে ফেলেছেন! এরপর ধীরে ধীরে আপনার মনে হাজারো প্রশ্ন তৈরি হবে। কিভাবে সমীকরণের নাম্বার লিখতে হয়, কিভাবে ডিফারেন্টিয়াল সমীকরণ লিখতে হয়, একাদিক ছবি থাকলে কিভাবে সংযুক্ত করতে হবে, কিভাবে টেবিলের সারি ও কলাম সংখ্যা বাড়াতে হবে কিংবা কমাতে হবে। এরকম হাজারো প্রশ্নের সমাধান দিয়ে দিবে google!</p>
-
-[বিস্তারিত জানতে এখানে ক্লিক করুন](https://alamgirh.github.io/latex/latex.slides.html)
