@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LaTeX ব্যবহার করে প্রেজেন্টেশন তৈরি 
+title: $\LaTeX$ ব্যবহার করে প্রেজেন্টেশন তৈরি 
 date: 2016-12-13
 categories: update
 ---
@@ -9,13 +9,13 @@ categories: update
 
 <p> প্রথমে একটি গল্প দিয়ে শুরু করি। এটি আমার গল্প। 2007 সালে আমি মাস্টার্সে পড়ি। তখন ঢাকা বিশ্ববিদ্যালয়ে বাংলাদেশ গণিত সমিতির কনফারেন্স অনুষ্ঠিত হয়। একটা কনফারেন্স কক্ষে আমি প্রেসেন্টারদের সাহায্য করছিলাম। কম্পিউটারে লেফট রাইট কী চেপে তাদের স্লাইড সরানোর কাজ। তার মধ্যে একটা প্রেজেন্টেশনের স্লাইড গুলো দেখে আমার খুব ভালো লাগে। এটি ছিল সিঙ্গাপুরের একজন বাংলাদেশী প্রফেসরের স্লাইডস। আমি ভাবতে থাকি কিভাবে এই ধরণের প্রেজেন্টেশন করা যায়। তখন আমি পাওয়ার পয়েন্ট ব্যবহার করে প্রেসেন্টেশন করতাম। পাওয়ার পয়েন্টের স্লাইড গুলোকে পিডিফ করে দেখলাম, মাইক্রোসফট ওয়ার্ডের ফাইলকে ল্যান্ডস্কেপ সেটিংস দিয়ে চেষ্টা করলাম তাতে ও ঐ রকম স্লাইডস বানাতে পারলাম না। তারপর বুঝতে পারলাম এটা অন্য কোনো সফ্টওয়ার বা পদ্ধতি যেটা আমাকে শিখতে হবে। 2013 সালে কানাডাতে এসে আমি সেই ফরম্যাটের প্রেজেন্টেশন ফাইল তৈরি করলাম। </p>
 
-<p>আমি জানি পৃথিবীতে লক্ষ কোটি জিনিষ রয়েছে তার কতগুলো আমি শিখবো? কিন্তু গণিতের ছাত্র হিসেবে LaTeX ব্যবহার করে ডকুমেন্ট লিখা , সিভি তৈরি কিংবা প্রজেক্ট বা থিসিস অবশই লিখতে হবে। আমি নিজে নিজে লজ্জিত হই এই ভেবে যে LaTeX এর মতো একটা জিনিস আমাকে কানাডাতে এসে শিখতে হলো। হয়তো বাংলাদেশে থাকলে আমার কখনোই শেখা হতো না! </p>
+<p>আমি জানি পৃথিবীতে লক্ষ কোটি জিনিষ রয়েছে তার কতগুলো আমি শিখবো? কিন্তু গণিতের ছাত্র হিসেবে $\LaTeX$ ব্যবহার করে ডকুমেন্ট লিখা , সিভি তৈরি কিংবা প্রজেক্ট বা থিসিস অবশই লিখতে হবে। আমি নিজে নিজে লজ্জিত হই এই ভেবে যে $\LaTeX$ এর মতো একটা জিনিস আমাকে কানাডাতে এসে শিখতে হলো। হয়তো বাংলাদেশে থাকলে আমার কখনোই শেখা হতো না! </p>
 
 <p>এখন মূল বক্তব্যে আসি। </p> 
 
-<h2> আপনি কিভাবে LaTeX ব্যবহার করে প্রেজেন্টেশন স্লাইডস তৈরি করবেন?</h2>
+<h2> কিভাবে $\LaTeX$ ব্যবহার করে প্রেজেন্টেশন স্লাইডস তৈরি করবেন?</h2>
 
-<p> আপনার কম্পিউটারে আপনাকে একটি LaTeX সফ্টওয়ার ইনস্টল করতে হবে। যেমন <a href='http://www.xm1math.net/texmaker/'>Texmaker</a>, <a href='http://kile.sourceforge.net/'> Kile</a>  ইত্যাদি । এছাড়া অনলাইনে $\LaTeX$ ব্যবহারের জন্য <a href='https://www.sharelatex.com/'> sharelatex </a> এ একাউন্ট ওপেন করতে পারেন।  <a href='https://www.sharelatex.com/'> sharelatex </a> ব্যবহার করতে পারেন । সেখানে রয়েছে অসংখ্য <a href='https://www.sharelatex.com/templates/presentations'>প্রেজেন্টেশন Template</a>. আমি এই টিউটোরিয়ালটি প্রস্তুতির জন্য <a href='https://www.sharelatex.com/templates/presentations/conference-presentation'>conference-presentation</a> টেম্পলেটটি  ব্যবহার করেছি. </p>
+<p> আপনার কম্পিউটারে আপনাকে একটি $\LaTeX$ সফ্টওয়ার ইনস্টল করতে হবে। যেমন <a href='http://www.xm1math.net/texmaker/'>Texmaker</a>, <a href='http://kile.sourceforge.net/'> Kile</a>  ইত্যাদি । এছাড়া অনলাইনে $\LaTeX$ ব্যবহারের জন্য <a href='https://www.sharelatex.com/'> sharelatex </a> এ একাউন্ট ওপেন করতে পারেন।  <a href='https://www.sharelatex.com/'> sharelatex </a> ব্যবহার করতে পারেন । সেখানে রয়েছে অসংখ্য <a href='https://www.sharelatex.com/templates/presentations'>প্রেজেন্টেশন Template</a>. আমি এই টিউটোরিয়ালটি প্রস্তুতির জন্য <a href='https://www.sharelatex.com/templates/presentations/conference-presentation'>conference-presentation</a> টেম্পলেটটি  ব্যবহার করেছি. </p>
 
 <p> এছাড়া <a href='https://github.com/'> github </a> এ একাউন্ট খুলতে পারেন। <a href='https://github.com/'> github </a>  এ আপনি অসংখ্য প্রেজেন্টেশন Template খুঁজে পেতে পারেন। </p>
 
@@ -147,7 +147,7 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 \end{frame}
 ```
 <h3> ডাউনলোড লিংক</h3>
-এই টিউটোরিয়ালে ব্যবহৃত .tex, .bib ফাইল ও LaTeX ব্যবহার করে প্রাপ্ত .pdf ফাইলের ডাউনলোড লিংক:
+এই টিউটোরিয়ালে ব্যবহৃত .tex, .bib ফাইল ও $\LaTeX$ ব্যবহার করে প্রাপ্ত .pdf ফাইলের ডাউনলোড লিংক:
 <ul>
 <li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.tex'>QuadraticEquations.tex</a></li>
 <li> <a href='https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.pdf'>QuadraticEquations.pdf</a></li>
