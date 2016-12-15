@@ -84,12 +84,27 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 <h3>Table</h3>
 
 <a>এখন আপনি যদি নিচের মতো করে একটি টেবিল প্রস্তুত করতে চান:</a>
-
- | $d = b^2-4ac$     | comment about roots         |
- |-------------------|-----------------------------|
- | $d>0$             | roots are real and distinct |
- | $d = 0$           | roots are real and same     |
- | $d<0$             | roots are complex           |
+<table border="1">
+<thead><tr>
+<th>$d = b^2-4ac$</th>
+<th>comment about roots</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$d>0$</td>
+<td>roots are real and distinct</td>
+</tr>
+<tr>
+<td>$d = 0$</td>
+<td>roots are real and same</td>
+</tr>
+<tr>
+<td> $d < 0$ </td>
+<td>roots are complex</td>
+</tr>
+</tbody>
+ </table>
 
 তাহলে আপনার .tex ফাইলে নিচের মত করে লিখতে হবে:
 
