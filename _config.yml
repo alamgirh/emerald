@@ -28,6 +28,14 @@ defaults:
 # Custom variables
 version: "1.1.0"
 
+twitter_username:     alamgirmath1  # Replace this with your Twitter username
+github_username:      alamgirh  # Replace this with your GitHub username
+# researchgate_username:  profile/M_Alamgir_Hossain  # Replace this with your Dribbble username
+linkedin_username:   m-alamgir-hossain-60b6a734  # Replace this with your LinkedIn username
+google_plus_username: u/0/102679449971781768694  # Replace this with your Google+ username
+facebook_username:    alamgir.hossain.507  # Replace this with your Facebook username
+# dribbble_username:    example  # Replace this with your Dribbble username
+
 # Options
 custom_header: false
 custom_nav_footer: false
