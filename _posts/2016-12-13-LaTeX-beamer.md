@@ -1,0 +1,140 @@
+---
+layout: post
+title: LaTeX ব্যবহার করে প্রেজেন্টেশন তৈরি 
+date: 2016-11-10
+categories: update
+---
+
+<img src="/images/fulls/02.png" class="fit image"> 
+
+প্রথমে একটি গল্প দিয়ে শুরু করি। এটি আমার গল্প। 2007 সালে আমি মাস্টার্সে পড়ি। তখন ঢাকা বিশ্ববিদ্যালয়ে বাংলাদেশ গণিত সমিতির কনফারেন্স অনুষ্ঠিত হয়। একটা কনফারেন্স কক্ষে আমি প্রেসেন্টারদের সাহায্য করছিলাম। কম্পিউটারে লেফট রাইট কী চেপে তাদের স্লাইড সরানোর কাজ। তার মধ্যে একটা প্রেজেন্টেশনের স্লাইড গুলো দেখে আমার খুব ভালো লাগে। এটি ছিল সিঙ্গাপুরের একজন বাংলাদেশী প্রফেসরের স্লাইডস। আমি ভাবতে থাকি কিভাবে এই ধরণের প্রেজেন্টেশন করা যায়। তখন আমি পাওয়ার পয়েন্ট ব্যবহার করে প্রেসেন্টেশন করতাম। পাওয়ার পয়েন্টের স্লাইড গুলোকে পিডিফ করে দেখলাম, মাইক্রোসফট ওয়ার্ডের ফাইলকে ল্যান্ডস্কেপ সেটিংস দিয়ে চেষ্টা করলাম তাতে ও ঐ রকম স্লাইডস বানাতে পারলাম না। তারপর বুঝতে পারলাম এটা অন্য কোনো সফ্টওয়ার বা পদ্ধতি যেটা আমাকে শিখতে হবে। 2013 সালে কানাডাতে এসে আমি সেই ফরম্যাটের প্রেজেন্টেশন ফাইল তৈরি করলাম। 
+
+আমি জানি পৃথিবীতে লক্ষ কোটি জিনিষ রয়েছে তার কতগুলো আমি শিখবো? কিন্তু গণিতের ছাত্র হিসেবে LaTeX ব্যবহার করে ডকুমেন্ট লিখা , সিভি তৈরি কিংবা প্রজেক্ট বা থিসিস অবশই লিখতে হবে। আমি নিজে নিজে লজ্জিত হই এই ভেবে যে LaTeX এর মতো একটা জিনিস আমাকে কানাডাতে এসে শিখতে হলো। হয়তো বাংলাদেশে থাকলে আমার কখনোই শেখা হতো না!
+
+এখন মূল বক্তব্যে আসি। 
+
+## আপনি কিভাবে LaTeX ব্যবহার করে প্রেজেন্টেশন স্লাইডস তৈরি করবেন?
+
+<p> আপনার কম্পিউটারে আপনাকে একটি LaTeX সফ্টওয়ার ইনস্টল করতে হবে। যেমন <a href='http://www.xm1math.net/texmaker/'>Texmaker</a>, <a href='http://kile.sourceforge.net/'> Kile</a>  ইত্যাদি । এছাড়া অনলাইনে $\LaTeX$ ব্যবহারের জন্য <a href='https://www.sharelatex.com/'> sharelatex </a> এ একাউন্ট ওপেন করতে পারেন।  <a href='https://www.sharelatex.com/'> sharelatex </a> ব্যবহার করতে পারেন । সেখানে রয়েছে অসংখ্য <a href='https://www.sharelatex.com/templates/presentations'>প্রেজেন্টেশন Template</a>. আমি এই টিউটোরিয়ালটি প্রস্তুতির জন্য [conference-presentation](https://www.sharelatex.com/templates/presentations/conference-presentation) টেম্পলেটটি  ব্যবহার করেছি. </p>
+
+<p> এছাড়া <a href='https://github.com/'> github </a> এ একাউন্ট খুলতে পারেন। <a href='https://github.com/'> github </a>  এ আপনি অসংখ্য প্রেজেন্টেশন Template খুঁজে পেতে পারেন। </p>
+## প্রেজেন্টেশন প্রস্তুতিতে ব্যবরিত .tex ফাইলের বিবরণ 
+
+## Document Class
+প্রেজেন্টেশন ফাইল প্রস্তুতির জন্য আপনার ডকুমেন্ট ক্লাস হবে beamer
+```latex
+\documentclass{beamer}
+```
+
+## Theme 
+
+অসংখ্য থিম রয়েছে। নিচে থিম গুলোর নাম উল্লেখ করেছি। এর মধ্যে থেকে আপনার পছন্দের থিম বাছাই করে নিতে পারেন।
+
+AnnArbor, Antibes, Bergen, Berkeley, Berlin, Boadilla, boxes, CambridgeUS, Copenhagen, Darmstadt, default, Frankfurt,
+Goettingen, Hannover, Ilmenau, JuanLesPins, Luebeck, Madrid,Malmoe, Marburg, Montpellier, PaloAlto, Pittsburgh, Rochester, Singapore, Szeged, Warsaw
+```LaTeX
+\usetheme{CambridgeUS}
+```
+
+## Frame
+ধরুন Quadratic Equation সম্পর্কে আপনি নিচের লেখা গুলো দুইটি স্লাইডে দেখতে দেখাতে চান.<br>
+When $a \ne 0$, quadratic equation $ax^2 + bx + c = 0$ has two roots and they are
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$ 
+
+$$ \begin{array}{rcl}
+y & = & a x^{2}+bx+c\\
+  & = & a\left(x^{2}+2\times\frac{b}{2a}x+\frac{c}{a}\right)\\
+  & = & a\left(x+\frac{b}{2a}\right)^2 - \frac{b^2}{4a} + c
+\end{array}$$
+
+Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\right)$.
+
+তাহলে লেখাটিকে আপনার .tex ফাইলে নিচের মত করে লিখতে হবে:
+```latex
+\begin{frame}
+  \frametitle{Quadratic Equations}
+    When $a \ne 0$, quadratic equation
+    $$ ax^2 + bx + c = 0 $$ has two roots and they are
+    $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vertex of Parabola}
+  \begin{array}{rcl}
+    y & = & a x^{2}+bx+c\\
+      & = & a\left(x^{2}+2\times\frac{b}{2a}x+\frac{c}{a}\right)\\
+      & = & a\left(x+\frac{b}{2a}\right)^2 - \frac{b^2}{4a} + c
+  \end{array}\]
+  Vertex of the parabola, $y = f(x)$ is
+  $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\right)$.
+\end{frame}
+```
+
+<a href='http://mathurl.com/'>mathURL</a> ব্যবহার করে গাণিতিক যেকোন লেখা বা সমীকরণ লিখতে পারেন। 
+
+## Block
+```LaTeX
+\begin{block}{Discriminant}
+    $$d = b^2-4ac$$
+\end{block}
+```
+
+## Table
+
+এখন আপনি যদি নিচের মতো করে একটি টেবিল প্রস্তুত করতে চান:
+
+ | $d = b^2-4ac$     | comment about roots         |
+ |-------------------|-----------------------------|
+ | $d>0$             | roots are real and distinct |
+ | $d = 0$           | roots are real and same     |
+ | $d<0$             | roots are complex           |
+
+তাহলে আপনার .tex ফাইলে নিচের মত করে লিখতে হবে:
+```LaTeX
+\begin{frame}
+  \frametitle{Table: Type of roots}
+  \begin{center}
+    \begin{tabular}{|l|l|}
+      \hline
+      $d = b^2-4ac$ & comment about roots\\
+      \hline \hline
+      $d>0$ & roots are real and distinct\\
+      \hline
+      $d = 0$ & roots are real and same\\
+      \hline
+      $d<0$ & roots are complex\\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{frame}
+```
+
+## figure
+
+এখন আপনার আগ্রহ তৈরি হতে পারে আপনার প্রেসেন্টেশন ফাইলে একটি ছবি সংযুক্ত করবেন। যেমন quadraticplots.png ফাইল আপনি সংযুক্ত করতে চান। 
+
+[Quadretic Plots](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png)
+
+তাহলে আপনার .tex ফাইলে নিচের মত করে লিখতে পারেন।
+```LaTeX
+\begin{frame}
+  \frametitle{Plots of quadratic equations}
+    \begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{quadraticplots.png}
+    \caption{LaTex: Quadratic Functions}
+    \end{figure}
+\end{frame}
+```
+### ডাউনলোড লিংক
+এই টিউটোরিয়ালে ব্যবহৃত .tex, .bib ফাইল ও LaTeX ব্যবহার করে প্রাপ্ত .pdf ফাইলের ডাউনলোড লিংক:
+- [QuadraticEquations.tex](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.tex)
+- [QuadraticEquations.pdf](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.pdf)
+- [ref.bib](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/ref.bib)
+- [QuadraticEquations.bbl](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/QuadraticEquations.bbl)
+- [quadraticplots.png](https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png)
+<br>
+<p> ইতিমধ্যে আপনি গাণিতিক সমীকরণ, টেবিল তৈরি ও ছবি সংযুক্ত করা শিখে ফেলেছেন! এরপর ধীরে ধীরে আপনার মনে হাজারো প্রশ্ন তৈরি হবে। কিভাবে সমীকরণের নাম্বার লিখতে হয়, কিভাবে ডিফারেন্টিয়াল সমীকরণ লিখতে হয়, একাদিক ছবি থাকলে কিভাবে সংযুক্ত করতে হবে, কিভাবে টেবিলের সারি ও কলাম সংখ্যা বাড়াতে হবে কিংবা কমাতে হবে। এরকম হাজারো প্রশ্নের সমাধান দিয়ে দিবে google!</p>
+
+[বিস্তারিত জানতে এখানে ক্লিক করুন](https://alamgirh.github.io/latex/latex.slides.html)
+
