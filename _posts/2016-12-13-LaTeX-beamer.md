@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LaTeX ব্যবহার করে প্রেজেন্টেশন তৈরি 
-date: 2016-11-10
+date: 2016-12-13
 categories: update
 ---
 
@@ -15,7 +15,7 @@ categories: update
 
 <h2> আপনি কিভাবে LaTeX ব্যবহার করে প্রেজেন্টেশন স্লাইডস তৈরি করবেন?</h2>
 
-<p> আপনার কম্পিউটারে আপনাকে একটি LaTeX সফ্টওয়ার ইনস্টল করতে হবে। যেমন <a href='http://www.xm1math.net/texmaker/'>Texmaker</a>, <a href='http://kile.sourceforge.net/'> Kile</a>  ইত্যাদি । এছাড়া অনলাইনে $\LaTeX$ ব্যবহারের জন্য <a href='https://www.sharelatex.com/'> sharelatex </a> এ একাউন্ট ওপেন করতে পারেন।  <a href='https://www.sharelatex.com/'> sharelatex </a> ব্যবহার করতে পারেন । সেখানে রয়েছে অসংখ্য <a href='https://www.sharelatex.com/templates/presentations'>প্রেজেন্টেশন Template</a>. আমি এই টিউটোরিয়ালটি প্রস্তুতির জন্য [conference-presentation](https://www.sharelatex.com/templates/presentations/conference-presentation) টেম্পলেটটি  ব্যবহার করেছি. </p>
+<p> আপনার কম্পিউটারে আপনাকে একটি LaTeX সফ্টওয়ার ইনস্টল করতে হবে। যেমন <a href='http://www.xm1math.net/texmaker/'>Texmaker</a>, <a href='http://kile.sourceforge.net/'> Kile</a>  ইত্যাদি । এছাড়া অনলাইনে $\LaTeX$ ব্যবহারের জন্য <a href='https://www.sharelatex.com/'> sharelatex </a> এ একাউন্ট ওপেন করতে পারেন।  <a href='https://www.sharelatex.com/'> sharelatex </a> ব্যবহার করতে পারেন । সেখানে রয়েছে অসংখ্য <a href='https://www.sharelatex.com/templates/presentations'>প্রেজেন্টেশন Template</a>. আমি এই টিউটোরিয়ালটি প্রস্তুতির জন্য <a href='https://www.sharelatex.com/templates/presentations/conference-presentation'>conference-presentation</a> টেম্পলেটটি  ব্যবহার করেছি. </p>
 
 <p> এছাড়া <a href='https://github.com/'> github </a> এ একাউন্ট খুলতে পারেন। <a href='https://github.com/'> github </a>  এ আপনি অসংখ্য প্রেজেন্টেশন Template খুঁজে পেতে পারেন। </p>
 
@@ -49,7 +49,7 @@ y & = & a x^{2}+bx+c\\
 
 Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\right)$.</p>
 
-<p>তাহলে লেখাটিকে আপনার .tex ফাইলে নিচের মত করে লিখতে হবে:</p>
+<p>তাহলে লেখাটিকে আপনার .tex ফাইলে নিচের মত করে লিখে স্লাইড তৈরী করতে পারেন।</p>
 
 ```LaTeX
 \begin{frame}
@@ -84,6 +84,7 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 <h3>Table</h3>
 
 <a>এখন আপনি যদি নিচের মতো করে একটি টেবিল প্রস্তুত করতে চান:</a>
+
 <table border="1">
 <thead><tr>
 <th>$d = b^2-4ac$</th>
@@ -106,7 +107,7 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 </tbody>
  </table>
 
-তাহলে আপনার .tex ফাইলে নিচের মত করে লিখতে হবে:
+তাহলে আপনার .tex ফাইলে নিচের মত করে লিখে একটি স্লাইড তৈরী করতে পারেন।
 
 ```LaTeX
 \begin{frame}
@@ -133,7 +134,7 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 
 <img src="https://alamgirh.github.io/tutorial/latex-presentation-tutorial/quadraticplots.png" class="fit image"> 
 
-তাহলে আপনার .tex ফাইলে নিচের মত করে লিখতে পারেন।
+তাহলে আপনার .tex ফাইলে নিচের মত করে লিখে একটি স্লাইড তৈরী করতে পারেন।
 
 ```LaTeX
 \begin{frame}
