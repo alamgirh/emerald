@@ -6,7 +6,7 @@
 		<img src="{{ "img/alamgir.jpg" | prepend: site.baseurl }}" style="width:140px;height:170px;" />
 	</a>
 	
-	 <ul class="icons">
+<!--	<ul class="icons">-->
 
 	{% if site.github_username %}
   	<li>
@@ -16,54 +16,55 @@
   	</li>
 	{% endif %}
 
-{% if site.twitter_username %}
-  <li>
-    <a href="https://twitter.com/{{ site.twitter_username }}">
-      <i class="fa fa-twitter"></i> Twitter
-    </a>
-  </li>
-{% endif %}
+	{% if site.twitter_username %}
+  	<li>
+    		<a href="https://twitter.com/{{ site.twitter_username }}">
+      		<i class="fa fa-twitter"></i> Twitter
+    		</a>
+  	</li>
+	{% endif %}
 
-{% if site.linkedin_username %}
-  <li>
-    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-      <i class="fa fa-linkedin"></i> LinkedIn
-    </a>
-  </li>
-{% endif %}
+	{% if site.linkedin_username %}
+  	<li>
+    		<a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+      		<i class="fa fa-linkedin"></i> LinkedIn
+    		</a>
+  	</li>
+	{% endif %}
 
-{% if site.google_plus_username %}
-  <li>
-    <a href="https://plus.google.com/{{ site.google_plus_username }}">
-      <i class="fa fa-google-plus"></i> Google+
-    </a>
-  </li>
-{% endif %}
+	{% if site.google_plus_username %}
+  	<li>
+    		<a href="https://plus.google.com/{{ site.google_plus_username }}">
+      		<i class="fa fa-google-plus"></i> Google+
+    		</a>
+  	</li>
+	{% endif %}
 
-{% if site.facebook_username %}
-  <li>
-    <a href="https://www.facebook.com/{{ site.facebook_username }}">
-      <i class="fa fa-facebook"></i> Facebook
-    </a>
-  </li>
-{% endif %}		 
+	{% if site.facebook_username %}
+  	<li>
+    		<a href="https://www.facebook.com/{{ site.facebook_username }}">
+      		<i class="fa fa-facebook"></i> Facebook
+    		</a>
+  	</li>
+	{% endif %}		 
 
-{if site.researchgate_username %}
-<li>
-	<a href="http://researchgate.net/{{ site.researchgate_username }}" class="fa fa-researchgate">
-	<span class="label">Research Gate</span>
-	</a>
-</li>
-{% endif %}
+	{if site.researchgate_username %}
+	<li>
+		<a href="http://researchgate.net/{{ site.researchgate_username }}" class="fa fa-researchgate">
+		<span class="label">Research Gate</span>
+		</a>
+	</li>
+	{% endif %}
 
-{% if site.email %}
-<li>
-	<a href="mailto:{{ site.email }}" class="fa fa-envelope-o">
-        <span class="label">Email</span>
-        </a>
-</li>
-{% endif %}
-</ul>
+	{% if site.email %}
+	<li>
+		<a href="mailto:{{ site.email }}" class="fa fa-envelope-o">
+        	<span class="label">Email</span>
+        	</a>
+	</li>
+	{% endif %}
+	
+<!--	</ul> -->
           <!--  <ul class="copyright">
                 <li>&copy; Alamgir Hossain</li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
