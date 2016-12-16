@@ -7,15 +7,16 @@
 	</a>
 	
 	 <!--     <ul class="icons"> -->
-{% if site.twitter_username %}
-  <li>
-    <a href="https://twitter.com/{{ site.twitter_username }}">
-      <i class="fa fa-twitter"></i> Twitter
-    </a>
-  </li>
-{% endif %}
+
+	{% if site.twitter_username %}
+  	<li>
+    		<a href="https://github.com/{{ site.github_username }}">
+      		<i class="fa fa-github"></i> GitHub
+    		</a>
+  	</li>
+	{% endif %}
 	
-              {% if site.github_username %}
+<!--              {% if site.github_username %}
               <li>
                 <a href="https://github.com/{{ site.github_username }}" class="icon fa-github">
                   <span class="label">GitHub</span>
@@ -23,7 +24,7 @@
               </li>
               {% endif %}
 
-      <!--        {% if site.twitter_username %}
+            {% if site.twitter_username %}
               <li>
                 <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
                   <span class="label">Twitter</span>
