@@ -1,4 +1,4 @@
-Alamgir's blog: https://alamgirh.github.io/blog/
+My blog: https://alamgirh.github.io/blog/
 
 Here's my blog build with jekyll.
 
