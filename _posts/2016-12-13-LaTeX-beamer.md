@@ -61,7 +61,7 @@ Vertex of the parabola, $y = f(x)$ is $\left(-\frac{b}{2a}, c - \frac{b^2}{4a}\r
 
 \begin{frame}
   \frametitle{Vertex of Parabola}
-  \begin{array}{rcl}
+  \[ \begin{array}{rcl}
     y & = & a x^{2}+bx+c\\
       & = & a\left(x^{2}+2\times\frac{b}{2a}x+\frac{c}{a}\right)\\
       & = & a\left(x+\frac{b}{2a}\right)^2 - \frac{b^2}{4a} + c
