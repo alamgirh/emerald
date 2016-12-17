@@ -28,7 +28,7 @@ published: true
 ## During this process you need to know the following
 - [GitHub for Beginners](https://guides.github.com/activities/hello-world/) 
 - Basic HTML. I learn HTML 5 from YouTube [Tutorial](https://www.youtube.com/playlist?list=PL1A2CSdiySGIlme1vVXbXBZpK1aDb4TBG).
-- Markdown, a lightweight markup language, is super easy to learn. If I forget anything I see the [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+- Markdown, a lightweight markup language, is super easy to learn. If I forget anything, I see the [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 - Basic idea about [Jekyll](https://jekyllrb.com/). I learn Jekyll from YouTube [Tutorial](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-). 
 <br>
 <br>
