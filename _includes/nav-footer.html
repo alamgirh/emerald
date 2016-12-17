@@ -23,6 +23,14 @@
   	</li>
 	{% endif %}
   
+  {% if site.twitter_username %}
+  	<li>
+    		<a href="https://twitter.com/{{ site.twitter_username }}">
+      		<i class="fa fa-twitter"></i> Twitter
+    		</a>
+  	</li>
+	{% endif %}
+  
   {% if site.email %}
 	<li>
 		<a href="mailto:{{ site.email }}">
