@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to create a blog in GitHub using Jekyll Theme?
-date: 2016-12-16
+date: {}
 categories: update
 published: true
 ---
@@ -32,4 +32,5 @@ published: true
 - Basic idea about [Jekyll](https://jekyllrb.com/) 
 <br>
 <br>
->Happy blogging! Hopefully your writing will help others not hurt others.
+
+> Happy blogging! Hopefully your writing will help others not hurt others.
