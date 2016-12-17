@@ -4,9 +4,8 @@ description: "A minimal blog template, build with Jekyll."
 url: "http://www.sfu.ca/~mahossai/"
 author:
   name: "Alamgir Hossain"
-  email: "alamgirmath@gmail.com"
   url: "http://www.sfu.ca/~mahossai/"
-
+email: "alamgirmath@gmail.com"
 # Build settings
 baseurl: /blog/ # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
