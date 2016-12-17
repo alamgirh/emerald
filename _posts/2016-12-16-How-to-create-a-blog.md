@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to create a blog in GitHub using Jekyll Theme?
-date: {}
+date: 2016-12-16
 categories: update
 published: true
 ---
