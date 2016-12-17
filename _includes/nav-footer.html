@@ -1,4 +1,13 @@
 <footer>
+  
+  {% if site.github_username %}
+  	<li>
+    		<a href="https://scholar.google.ca/{{ site.googlescholar_username }}">
+      		<i class="ai ai-google-scholar-square ai-3x"></i> Google Scholar
+    		</a>
+  	</li>
+	{% endif %}
+  
 	{% if site.github_username %}
   	<li>
     		<a href="https://github.com/{{ site.github_username }}">
@@ -34,7 +43,7 @@
   {% if site.email %}
 	<li>
 		<a href="mailto:{{ site.email }}">
-		<i class="fa fa-envelope-o"></i> Email
+          <i class="fa fa-envelope-o"></i> Email
         	</a>
 	</li>
 	{% endif %}
