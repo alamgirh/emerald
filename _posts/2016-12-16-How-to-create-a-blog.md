@@ -6,6 +6,8 @@ categories: update
 published: true
 ---
 
+Describe step by step how to build a blog  powered by Jekyll, a fantastic static website generator which is easily maintainable. I will also describe how to host your Jekyll site, for free, in a GitHub repository.
+
 ## Steps:
 
 - Step 1: Create a [GitHub](https://github.com/) account.
