@@ -27,6 +27,7 @@ defaults:
 # Custom variables
 version: "1.1.0"
 
+googlescholar_username: citations?user=UabU-5gAAAAJ&hl=en # Google Scholar
 twitter_username:     alamgirmath1  # Replace this with your Twitter username
 github_username:      alamgirh  # Replace this with your GitHub username
 # researchgate_username:  profile/M_Alamgir_Hossain  # Replace this with your Dribbble username
