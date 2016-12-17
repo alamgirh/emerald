@@ -1,14 +1,15 @@
 ---
 layout: post
 title: How to create a blog in GitHub using Jekyll Theme?
-date: 2016-12-16
+date: {}
 categories: update
+published: true
 ---
 
-## Steps
+## Steps:
 
-- Step 1: Create a [GitHub](https://github.com/) account
-  - For example, your GitHub account name is **meghna**
+- Step 1: Create a [GitHub](https://github.com/) account.
+  - For example, your GitHub account name is **meghna**.
   - Create a repository, for example, your new repository name is **padma**. For little bit practice to know how GitHub works, you can create a [GitHub Pages](https://pages.github.com/). Write someting that you like in the README.md file. Go to Settings -> Options. Then you will find GitHub Pages paragraph where you can find a button (Choose a theme). Click the button Choose a theme and Select Theme. Finally, your README.md file will use as a content of your website. Your website address is http://**meghna**.github.io/**padma** . Yes, anyone can view your website and finally you created a website in GitHub!   
   - For writing README.md file you may learn Markdown which is super easy. You may see [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
