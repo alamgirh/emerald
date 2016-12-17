@@ -1,12 +1,21 @@
 <footer>
   
-  {% if site.github_username %}
+  {% if site.googlescholar_username %}
   	<li>
     		<a href="https://scholar.google.ca/{{ site.googlescholar_username }}">
-      		<i class="ai ai-google-scholar-square ai-3x"></i> Google Scholar
+      		<i class="ai ai-google-scholar-square ai-1x"></i> Google Scholar
     		</a>
   	</li>
 	{% endif %}
+  
+  {% if site.researchgate_username %}
+  	<li>
+    		<a href="https://www.researchgate.net/profile/{{ site.researchgate_username }}">
+      		<i class="ai ai-researchgate-square ai-1x"></i> ResearchGate
+    		</a>
+  	</li>
+	{% endif %}
+
   
 	{% if site.github_username %}
   	<li>
